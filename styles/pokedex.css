@@ -1,0 +1,105 @@
+
+.container1{
+    background-color: red;
+    width: 600px;
+    height: 650px;
+    border-radius: 30px;
+    position: absolute;
+    top: 45px;
+    left: 20%;
+}
+.container1back{
+    background-color: grey;
+    width: 620px;
+    height: 670px;
+    border-radius: 30px;
+    position: absolute;
+    top: 37px;
+    left: 388px;
+    z-index: -1;
+}
+
+.screen{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    background: linear-gradient(70deg, blue, white); 
+    border-color: black;
+    border-width: 50px;
+    border-radius: 25px;
+}
+
+.buttonPoke{
+    width: 85px;
+    height: 85px    ;
+    position: relative;
+    left: 370px;
+    top: 0px;
+    border-radius: 50%;
+    background-color: black;
+    color: aliceblue;
+}
+
+.nombrePokemon{
+    width: 85px;
+    height: 85px    ;
+    position: relative;
+    left: 150px;
+    top: 95px;
+    border-radius: 25px;
+}
+
+
+
+.container2{
+    background-color: red;
+    width: 600px;
+    height: 650px;
+    border-radius: 30px;
+    position: absolute;
+    top: 45px;
+    left: 53%;
+}
+.container2back{
+    background-color: grey;
+    width: 620px;
+    height: 670px;
+    border-radius: 30px;
+    position: absolute;
+    top: 37px;
+    left: 1000px;
+    z-index: -1;
+}
+
+.pokecover{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: 80px;
+    left: 65px;
+}
+
+
+
+
+/* Muestra de los datos en .screen */
+
+
+
+.column1 {
+	float: left;
+	width: 50%;
+	/* position: relative;
+	left: 150px;
+	top: 180px; */
+}
+
+
+.column2 {
+	float: left;
+	width: 50%;
+	position: relative;
+    left: -5px;
+}

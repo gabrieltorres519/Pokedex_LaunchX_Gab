@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./styles/pokedex.css">
+    <style>
+        body{
+            background-image: url("assets/backgroundPoke.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="mastercontainer">
+            <div class="container1">
+                    <h1 style="text-align: center; position: relative; top: 15px;" >Pokedex LaunchX</h1>
+                    <div class="screen">
+                        <img src="./assets/pokeLogo.png" alt="" style="position: fixed; width: 220px; " id="pokeImg" >
+
+                        <!-- <h2>INtroduce el nombre de tu pokemon</h2> -->
+                        <div id="screenJS">
+                            <img src="./assets/gifPoke.gif" alt="" style="position: relative; top:  120px; left: 100px;">
+                        </div>
+                    </div>
+                    <div class="nombrePokemon">
+                        <input type="text" placeholder="Introduce el Pokemon" id="pokename" name="pokename"><br>
+                    </div>
+                    <button onclick="fetchPokemon()" class="buttonPoke">0</button> 
+            </div>
+            <div class="container1back">
+
+            </div>
+
+
+
+
+            <div class="container2">
+                
+                    <img src="./assets/coverpoke.png" alt="" class="pokecover">
+                
+            </div>
+            <div class="container2back">
+
+            </div>
+    </div>
+
+    
+    
+
+</body>
+
+<footer>
+    <script src="./pokedexLaunchX.js"></script>
+</footer>
+
+</html>
